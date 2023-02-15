@@ -26,7 +26,7 @@ Postman rest client
 MySql
 
 
-Getting Started
+Getting Started:
 Prerequisites
 
     Install Java 11 from the OpenJDK
@@ -38,16 +38,12 @@ Prerequisites
     
     
     MySQL Setup:
-
     Use a preffered MySQL 8.0 for your system(os) and create a database named blog-app
     Run the MySQL Server
 
 Backend:
-
     Open the backend folder with STS
-
     Right click on the pom.xml file and with the maven option select Reload the project it will automatically download the dependencies
-
     Open application.properties file from the resource folder and add the following lines
 
      #MySQL database connection strings
@@ -63,18 +59,34 @@ Backend:
     Once the source building and dependecies are ready and application.properties is configured, run the App using Application configuration or just run if the provided configuration is available. // We're running only the development version here since it's basic
 
 Frontend:
-
     for frontend open blog-app folder from cmd 
     run the code .. cmd, this will open the application in visual studio with project structure.
     Open terminal inside the vs code or run the run from externally.
     Either use npm run start or use npm run build then serve the build with serve -s build
     Frontend will automatically run in your browser
 
-Once all three are set, you can readily browse through http://lostcalhost:8080 for backend and http://localhost:3000 for frontend (PORTs may vary depending on your system/version or availability for use.)
+Once all three are set, you can readily browse through http://lostcalhost:8080 for backend and
+http://localhost:3000 for frontend 
+(PORTs may vary depending on your system/version or availability for use.)
 
 Swagger UI
-
     http://localhost:8080/swagger-ui.html
+    
+    Images for representaion for application architecture:
+    
+    a). Used HTTP Methods:
+     ![image](https://user-images.githubusercontent.com/40369558/219026431-9cba3a62-c7b2-40a6-abd2-b0829301f9be.png)
+
+    b). HTTP response code 
+    
+    ![image](https://user-images.githubusercontent.com/40369558/219026561-a817e24b-da1f-439d-8d8f-1355048bdf02.png)
+    
+     c). Architecture for java based backend application
+      ![image](https://user-images.githubusercontent.com/40369558/219026781-78239299-3660-4c09-b379-3403e80ce626.png)
+
+    
+
+
 
 
 ER Diagrams.
