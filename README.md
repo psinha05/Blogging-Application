@@ -8,19 +8,12 @@ A full-stack blog written in Java using Spring Boot and Reactjs, all the user at
 
 Used technologies for this application : 
 Core java (oops , package , exception , lambda , stream api etc)
-
 Basics of Spring Framework( Spring Core(DI) , JPA and MVC)
-
 Spring Boot Basics
-
 Basics of MySQL Database
-
 STS IDE
-
 React JS
-
 Java Script
-
 Postman rest client
 
 MySql
@@ -28,7 +21,6 @@ MySql
 
 Getting Started:
 Prerequisites
-
     Install Java 11 from the OpenJDK
     Install Node.js from the Node.js website
     Install MySql 8.x on local machine
@@ -79,7 +71,8 @@ Swagger UI
 
     b). HTTP response code 
     
-    ![image](https://user-images.githubusercontent.com/40369558/219026561-a817e24b-da1f-439d-8d8f-1355048bdf02.png)
+    ![image](https://user-images.githubusercontent.com/40369558/219027263-dfd791d7-5ee1-44a1-9b57-df43c8741868.png)
+
     
      c). Architecture for java based backend application
       ![image](https://user-images.githubusercontent.com/40369558/219026781-78239299-3660-4c09-b379-3403e80ce626.png)
