@@ -14,19 +14,12 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
-
 import com.ps.blog.payloads.CommentDto;
 
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+
 
 @Entity
 @Table(name = "posts")
-@NoArgsConstructor
-@Getter
-@Setter
-
 public class Post {
 
 	@Id
@@ -55,13 +48,6 @@ public class Post {
 
 	public Post() {
 	}
-
-	/*
-	 * public Post(String title, String content) { super(); this.title = title;
-	 * this.content = content;
-	 * 
-	 * }
-	 */
 
 	public Integer getPostId() {
 		return postId;
