@@ -68,6 +68,13 @@ http://localhost:3000 for frontend
 ![image](https://user-images.githubusercontent.com/40369558/222567413-a62e9c8c-f206-4380-ad94-4d3a428409ea.png)
 
 
+#  Blogging Application Diagrams 
+
+a). Login Page 
+ ![image](https://user-images.githubusercontent.com/40369558/222567874-be3d2cf1-25f2-4eb7-b473-1e52ad45b9bf.png)
+
+
+
 
 
 ER Diagrams.
