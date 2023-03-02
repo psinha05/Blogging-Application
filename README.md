@@ -57,17 +57,16 @@ Frontend:
     Either use npm run start or use npm run build then serve the build with serve -s build
     Frontend will automatically run in your browser
 
-Once all three are set, you can readily browse through http://lostcalhost:8080 for backend and
+Once all three are set, you can readily browse through http://lostcalhost:9090 for backend and
 http://localhost:3000 for frontend 
 (PORTs may vary depending on your system/version or availability for use.)
 
-Swagger UI
-    http://localhost:8080/swagger-ui.html
-    
+  
     Images for representaion for application architecture:
     
     a). Used HTTP Methods:
-     ![image](https://user-images.githubusercontent.com/40369558/219026431-9cba3a62-c7b2-40a6-abd2-b0829301f9be.png)
+     ![image](https://user-images.githubusercontent.com/40369558/222561572-a854b2b1-417e-430b-a565-1031ea4c3748.png)
+
 
     b). HTTP response code 
     
