@@ -77,15 +77,16 @@ http://localhost:3000 for frontend
  
  ![image](https://user-images.githubusercontent.com/40369558/222568074-bdc16ad5-5cf7-4cf5-a845-79dfde7aca98.png)
  
+ ------------------------------------------------------------------------------------------------------------------
 
 b). Login Page 
  ![image](https://user-images.githubusercontent.com/40369558/222567874-be3d2cf1-25f2-4eb7-b473-1e52ad45b9bf.png)
  
- 
+ ----------------------------------------------------------------------------------------------------------------------
 
-c). 
+c). Successfully registered user
     ![image](https://user-images.githubusercontent.com/40369558/222568971-0c2420d0-532f-4eb1-a983-e07ae94abd8f.png)
-      (Successfully registered user)
+    
     
     
     
