@@ -64,8 +64,8 @@ http://localhost:3000 for frontend
   
     Images for representaion for application architecture:
     
-    ![spboot_architecture](https://user-images.githubusercontent.com/40369558/222567247-cb2ecb40-1fe1-4d23-9b44-1ec3ec14dd00.png)
-    
+       
+![image](https://user-images.githubusercontent.com/40369558/222567413-a62e9c8c-f206-4380-ad94-4d3a428409ea.png)
 
 
 
