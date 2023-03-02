@@ -81,12 +81,14 @@ http://localhost:3000 for frontend
  
 
 b). Login Page 
+
  ![image](https://user-images.githubusercontent.com/40369558/222567874-be3d2cf1-25f2-4eb7-b473-1e52ad45b9bf.png)
  
  
  ----------------------------------------------------------------------------------------------------------------------
 
 c). Successfully registered user
+
     ![image](https://user-images.githubusercontent.com/40369558/222568971-0c2420d0-532f-4eb1-a983-e07ae94abd8f.png)
     
     
@@ -94,18 +96,23 @@ c). Successfully registered user
     
     
  d). Login for the registered user
+ 
  ![image](https://user-images.githubusercontent.com/40369558/222569107-84937ac0-c368-47b0-b65a-9f7e7ef32118.png)
           
 -------------------------------------------------------------------------------------------------------------------------
 
 
 e). For blog in the application 
+
+
 ![image](https://user-images.githubusercontent.com/40369558/222569347-fd47f7fd-9f8b-4594-82f3-699b372d32eb.png)
 
 --------------------------------------------------------------------------------------------------------------------------
 
 
 f).  User Information Page
+
+
 ![image](https://user-images.githubusercontent.com/40369558/222569458-1aee5cad-b56b-4c83-b0c6-ba50a5750293.png)
 
 ----------------------------------------------------------------------------------------------------------------------------
