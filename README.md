@@ -1,3 +1,4 @@
+![image](https://user-images.githubusercontent.com/40369558/222564611-d37456ac-b1cc-448f-9741-1ac80f7c8d35.png)
 # Blogging-Application
 Blogging Application for the demo purpose
 
@@ -65,8 +66,7 @@ http://localhost:3000 for frontend
     Images for representaion for application architecture:
     
     a). Used HTTP Methods:
-    ![image](https://user-images.githubusercontent.com/40369558/222563686-131a05d2-fb09-417c-91b6-4b7379ce8325.png)
-
+    
 
 
     b). HTTP response code 
