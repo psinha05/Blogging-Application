@@ -130,5 +130,13 @@ ER Diagrams.
 ![image](https://user-images.githubusercontent.com/40369558/219021040-82970e5a-e517-4c1e-a176-0eabbba12175.png)
 
 
+-------------------------------------------------------------------------------------------------------------------------
+
+#  Topics covered for the project 
+
+1).  Git 
+GitHub is an Internet hosting service for software development and version control using Git. It provides the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project. It has been a subsidiary of Microsoft since 2018.
+
+
 
 
