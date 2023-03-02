@@ -64,17 +64,7 @@ http://localhost:3000 for frontend
   
     Images for representaion for application architecture:
     
-    a). Used HTTP Methods:
-    
-![image](https://user-images.githubusercontent.com/40369558/222564611-d37456ac-b1cc-448f-9741-1ac80f7c8d35.png)
-
-    b). HTTP response code 
-    ![image](https://user-images.githubusercontent.com/40369558/222565994-312a44b0-c6b9-48b1-882a-1f1d75d3f0d1.png)
-
-    
-    c). Architecture for java based backend application
-      ![image](https://user-images.githubusercontent.com/40369558/219026781-78239299-3660-4c09-b379-3403e80ce626.png)
-
+    ![spboot_architecture](https://user-images.githubusercontent.com/40369558/222567247-cb2ecb40-1fe1-4d23-9b44-1ec3ec14dd00.png)
     
 
 
