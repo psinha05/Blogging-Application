@@ -69,11 +69,10 @@ http://localhost:3000 for frontend
 ![image](https://user-images.githubusercontent.com/40369558/222564611-d37456ac-b1cc-448f-9741-1ac80f7c8d35.png)
 
     b). HTTP response code 
-    
-    ![image](https://user-images.githubusercontent.com/40369558/219027263-dfd791d7-5ee1-44a1-9b57-df43c8741868.png)
+    ![image](https://user-images.githubusercontent.com/40369558/222565994-312a44b0-c6b9-48b1-882a-1f1d75d3f0d1.png)
 
     
-     c). Architecture for java based backend application
+    c). Architecture for java based backend application
       ![image](https://user-images.githubusercontent.com/40369558/219026781-78239299-3660-4c09-b379-3403e80ce626.png)
 
     
