@@ -89,7 +89,8 @@ b). Login Page
 
 c). Successfully registered user
 
-    ![image](https://user-images.githubusercontent.com/40369558/222568971-0c2420d0-532f-4eb1-a983-e07ae94abd8f.png)
+    ![image](https://user-images.githubusercontent.com/40369558/222571690-17dcb2e1-c7e6-4b5f-9d28-8e52cb710ead.png)
+
     
     
  ----------------------------------------------------------------------------------------------------------------------- 
