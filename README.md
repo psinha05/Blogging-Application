@@ -83,13 +83,15 @@ b). Login Page
  
  
 
-c).  Successfully registered user
+c). 
     ![image](https://user-images.githubusercontent.com/40369558/222568971-0c2420d0-532f-4eb1-a983-e07ae94abd8f.png)
+      (Successfully registered user)
     
     
     
- d). Login for the registered user
+ d). 
  ![image](https://user-images.githubusercontent.com/40369558/222569107-84937ac0-c368-47b0-b65a-9f7e7ef32118.png)
+          (Login for the registered user)
 
 
 e). For blog in the application 
