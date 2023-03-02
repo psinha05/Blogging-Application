@@ -65,7 +65,7 @@ http://localhost:3000 for frontend
     Images for representaion for application architecture:
     
     a). Used HTTP Methods:
-     ![HTTP_Methods](https://user-images.githubusercontent.com/40369558/222562792-9246e4b5-fa86-4e56-a285-62eed876bf55.png)
+    ![image](https://user-images.githubusercontent.com/40369558/222563686-131a05d2-fb09-417c-91b6-4b7379ce8325.png)
 
 
 
