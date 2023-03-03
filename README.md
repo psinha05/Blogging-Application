@@ -289,6 +289,18 @@ Test the application : http://localhost:9000/dashboard?id=com.ps.blog%3Ablog-app
 
 
 
+5).  Clean Code Development 
+
+    Necessary changed were performed suggested by the tool(sonarqube), few are updated as below:
+    
+1).  To remove all the unused codes(written but not using anywhere)
+2).  To reomove the SOP, suggested for use the logger (log4j)
+3).  To updated the pom.xml file and suggested for removed all the commented code.
+4).  Lombook updated (for setter/getter)
+5).  Suggest for private methods instead of public for security purpose.
+
+![image](https://user-images.githubusercontent.com/40369558/222713703-755aed53-b95b-4d09-b046-cf69f663d946.png)
+
 
 
 
