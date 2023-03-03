@@ -201,7 +201,7 @@ The common terms that are useful for describing the DDD as
 
 
 
-         ![ddd01](https://user-images.githubusercontent.com/40369558/222698833-f5ef782e-1ed7-41c1-af8b-876857b56aed.png)
+        ![ddd01](https://user-images.githubusercontent.com/40369558/222699237-ff7e3cd3-d2bc-4403-8b9f-9729299b88c2.png)
 
            
           
