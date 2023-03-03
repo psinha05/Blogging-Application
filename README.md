@@ -378,15 +378,23 @@ An integrated development environment (IDE) is a software application that provi
 For this project I have used the Spring Tool Suits(STS) version 4.17.2 and Visual Studio Code(VS Code) version 1.39.2
 
 Version: 1.39.2 (user setup)
+
 Commit: 6ab598523be7a800d7f3eb4d92d7ab9a66069390
+
 Date: 2019-10-15T15:35:18.241Z
+
 Electron: 4.2.10
+
 Chrome: 69.0.3497.128
+
 Node.js: 10.11.0
+
 V8: 6.9.427.31-electron.0
+
 OS: Windows_NT x64 10.0.19045
 
-STS_V_4.17.2
+
+STS(V4.17.2)
 
 ![image](https://user-images.githubusercontent.com/40369558/222739691-13bf11e0-e832-47b6-8667-85ed54eea09e.png)
 
@@ -395,6 +403,47 @@ STS_V_4.17.2
 Visual Studio Code (V_1.39.2)
 
 ![image](https://user-images.githubusercontent.com/40369558/222739848-b03d2f96-5fd8-4790-b21a-205dd1eb42fd.png)
+
+
+
+10). DSL
+
+
+
+
+11). Functional Programming
+
+functional programming is a programming paradigm where programs are constructed by applying and composing functions. It is a declarative programming paradigm in which function definitions are trees of expressions that map values to other values, rather than a sequence of imperative statements which update the running state of the program.
+
+In functional programming, functions are treated as first-class citizens, meaning that they can be bound to names (including local identifiers), passed as arguments, and returned from other functions, just as any other data type can. This allows programs to be written in a declarative and composable style, where small functions are combined in a modular manner. 
+
+A number of aspects and paradigms are specific to functional programming, few of them have implemented code shown as below :
+
+@ only final data structures :
+
+Immutability is one of the core principal of functional programming  and it refers to the property that an entity can’t be modified after being instantiated. Java itself provides several built-in immutable type like String. Use of Final keyword is one of them.
+
+Use of data structure (List, Array, Map), so that variable can’t be further initialized. Also class cannot be subclased and final methods can’t be overridden.
+
+![image](https://user-images.githubusercontent.com/40369558/222756366-bb625115-2cc5-45df-8c6c-f9b37ef0f1f5.png)
+
+
+
+@ side effect :
+
+Functional programming is a pure function , a function is said  to be pure, if
+
+•	No state
+
+•	No side effect
+
+•	Immutable variables
+
+•	The return value of the function depends only on the input parameters passed to the function
+
+![image](https://user-images.githubusercontent.com/40369558/222757045-f20afecb-24fd-4bab-b153-f324636e5b4e.png)
+
+The return value of the sum() function only depends on the input parameters. Notice also that the sum() has no side effects, meaning it does not modify any state (variables) outside the function anywhere.
 
 
 
