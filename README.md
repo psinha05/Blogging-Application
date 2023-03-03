@@ -161,6 +161,35 @@ UML, short for Unified Modeling Language, is a standardized modeling language co
 ![image](https://user-images.githubusercontent.com/40369558/222690559-8f41054d-dde8-4309-948b-c13fb3f7e95a.png)
 
 
+3). Domain-driven Design(DDD)
+
+Domain-Driven Design is an approach to software design that glues the system’s implementation to a constantly evolving model, leaving aside irrelevant details like programming languages, infrastructure technologies, etc. DDD focuses on three core principles:
+
+•	It focuses on the core domain and domain logic.
+•	Base complex designs on models of the domain.
+•	Constantly collaborate with domain experts, in order to improve the application model.
+
+The common terms that are useful for describing the DDD as 
+        > Bounded Context: It is a description of a boundary within which a particular model is defined and applicable.        
+For example, outside of a Bounded Context, an “add” could mean two different things, either add a product to the cart or add a user. 
+
+        > Ubiquitous Language: It is a language, shared by the development team and the domain experts It is used by all team members to connect all the   activities of the team with the software.
+        
+        > Building Blocks:  Domain-driven design also defines a number of high-level concepts that can be used to create, express, and retrieve domain model within a Bounded Context.
+        
+        > Aggregate: Aggregates are collections of related Entities and Value Objects. Each Aggregate has an Entity that controls all access to the objects inside the boundary, this entity is the Aggregate Root. 
+        
+        > Services: The Domain Model requires certain actions or operations that are not directly related to an Entity or a Value Object, in that case, such business logic can be implemented as a Service. Services are classes that offer stateless operations. 
+        
+        > Entity: An object that has a unique identity and consistent thread of continuity. The Identity is maintained via a unique key or a combination of keys.
+        
+        > Value Object: An immutable object that describes characteristics, and that does not possess any unique identity is called Value Objects.
+        
+        > Repositories: The repository is an interface that handles Read, Updates, and Delete operations. It hides the implementation details from the client. It operates as an abstraction layer over memory, file system, database, etc.
+        
+        > Factories: The repository is an interface that handles Read, Updates, and Delete operations. It hides the implementation details from the client. It operates as an abstraction layer over memory, file system, database, etc.
+
+
 
 
 
