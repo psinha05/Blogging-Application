@@ -156,7 +156,7 @@ UML, short for Unified Modeling Language, is a standardized modeling language co
 
 ![image](https://user-images.githubusercontent.com/40369558/222690434-3fc84be8-daa6-41b9-81da-d5579044dcd6.png)
 
-@ Activity Diagram
+@ Activity Diagram of blog application
 
 ![image](https://user-images.githubusercontent.com/40369558/222690559-8f41054d-dde8-4309-948b-c13fb3f7e95a.png)
 
@@ -175,7 +175,7 @@ Domain-Driven Design is an approach to software design that glues the system’s
 The common terms that are useful for describing the DDD as 
 
         > Bounded Context: It is a description of a boundary within which a particular model is defined and applicable.        
-For example, outside of a Bounded Context, an “add” could mean two different things, either add a product to the cart or add a user. 
+(For example, outside of a Bounded Context, an “add” could mean two different things, either add a product to the cart or add a user)
 
         > Ubiquitous Language: It is a language, shared by the development team and the domain experts It is used by all team members to connect all the   activities of the team with the software.
         
@@ -196,20 +196,28 @@ For example, outside of a Bounded Context, an “add” could mean two different
        DDD of blog application and other design:
        
        a).  Blog Application 
-            ![image](https://user-images.githubusercontent.com/40369558/222695069-8537c0f2-abdd-433d-b1dc-9c1ba0368012.png)
+            
+          ![ddd01](https://user-images.githubusercontent.com/40369558/222696900-5cf840a1-602a-4ae2-b0e4-07da302f0814.png)
+           
+           
+           
+           
+           
+           ![blog_DDD](https://user-images.githubusercontent.com/40369558/222696637-fff39732-c329-4e48-a685-9ad4ecdd4f7d.png)
 
 
-           ![image](https://user-images.githubusercontent.com/40369558/222695217-423527ef-03b8-4cb1-aa7d-6f4d82b299ac.png)
+
+         
            
           
         b).  DDD implementation cycle
-             ![image](https://user-images.githubusercontent.com/40369558/222695404-104553c1-9835-4ab9-8628-073e9633fef0.png)
+             ![DDD_impl](https://user-images.githubusercontent.com/40369558/222696947-74cf6ed7-0bf4-4644-896f-8261a22b3509.png)
+
 
 
         c).  DDD of Microservices application
-            ![image](https://user-images.githubusercontent.com/40369558/222695598-15896cc9-1ed2-475f-ad46-3161842636d5.png)
+            ![ms_ddd](https://user-images.githubusercontent.com/40369558/222697000-e6745730-dcee-4df9-a964-8c81f24238db.png)
 
-  
 
 
 
