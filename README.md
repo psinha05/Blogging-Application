@@ -419,6 +419,7 @@ In functional programming, functions are treated as first-class citizens, meanin
 
 A number of aspects and paradigms are specific to functional programming, few of them have implemented code shown as below :
 
+
 @ only final data structures :
 
 Immutability is one of the core principal of functional programming  and it refers to the property that an entity can’t be modified after being instantiated. Java itself provides several built-in immutable type like String. Use of Final keyword is one of them.
@@ -426,6 +427,7 @@ Immutability is one of the core principal of functional programming  and it refe
 Use of data structure (List, Array, Map), so that variable can’t be further initialized. Also class cannot be subclased and final methods can’t be overridden.
 
 ![image](https://user-images.githubusercontent.com/40369558/222756366-bb625115-2cc5-45df-8c6c-f9b37ef0f1f5.png)
+
 
 
 
@@ -446,23 +448,25 @@ Functional programming is a pure function , a function is said  to be pure, if
 The return value of the sum() function only depends on the input parameters. Notice also that the sum() has no side effects, meaning it does not modify any state (variables) outside the function anywhere.
 
 
+
 @ higher-order functions
 
 A function is said to be a higher order function if at least one of the following conditions are met:
 
-	The function takes one or more functions as parameters.
+       > The function takes one or more functions as parameters.
 
-	The function returns another functions as result. 
+       > The function returns another functions as result. 
 
 ![image](https://user-images.githubusercontent.com/40369558/222757926-a996a7db-a182-4b9e-b456-1894b4076415.png)
 
 Use of higher-order function
 
-	The function will work as an instance of the object type.
+     - The function will work as an instance of the object type.
 
-	We can easily store the function in the form of the variable.
+     - We can easily store the function in the form of the variable.
 
-	We can store these functions in the data structure in the hash table, list etc.
+     - We can store these functions in the data structure in the hash table, list etc.
+     
 
 
 
@@ -476,6 +480,23 @@ Syntax :
 (parameter1, parameter 2, ….) ->   {  body  }
 
 ![image](https://user-images.githubusercontent.com/40369558/222759011-f77f1e57-c927-429f-a531-cdc6e0f36b8b.png)
+
+
+
+@ Anonymous function
+
+Anonymous function are unnamed, and thus can’t be invoked or used anywhere but where they’re defined. Thus they are useful to do a small amount of functionality that doesn’t rise to the level of needing its own template. So, this means anonymous functions need to be implemented using closures. Lambda expressions are merely a more concise way to invoke these anonymous functions
+
+A lambda expression represents an anonymous function and It comprises of a set of parameters, a lambda operator (->) and a function body.
+
+Return Type
+
+1.	When there is a single statement, the return type of the anonymous function is the same as that of the body expression.
+
+2.	When there is more than one statement enclosed in curly brackets then the return type of the anonymous function is the same as the type of the value returned within the code block, or void if nothing is returned.
+
+![image](https://user-images.githubusercontent.com/40369558/222764794-4c184644-c671-4d99-baec-e7bc9099dcc0.png)
+
 
 
 
