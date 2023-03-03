@@ -235,6 +235,7 @@ SonarQube can record metrics history and provides evolution graphs. SonarQube pr
 
 Steps :
 a).  install the sonarqube on system
+
 b).  add the plugin in the maven(pom.xml) file
 
 <!-- Below plugin needs to be added for code coverage-->
@@ -260,17 +261,34 @@ b).  add the plugin in the maven(pom.xml) file
             </plugin>
 
 c).   we need to run two commands while building our spring boot project 
-                   	First command will be used to generate code coverage report by Jacoco plugin.
+
+                   > First command will be used to generate code coverage report by Jacoco plugin.
                             clean org.jacoco:jacoco-maven-plugin:prepare-agent install
                             
-                       Second command will be used to See our project code analysis on SonarQube dashboard. we also need to pass authorization token with 
+                   > Second command will be used to See our project code analysis on SonarQube dashboard. we also need to pass authorization token with 
                    sonar:sonar command . We will get this token from Sonarqube dashboard Click on My Account → Security → Enter Token Name and then 
                    click on Generate and will use same token value for -Dsonar.login 
+                   
                             sonar:sonar -Dsonar.login=generated-token-value
                             
  d). build the project using the maven 
  
  ![image](https://user-images.githubusercontent.com/40369558/222709174-b4d837b1-b94a-4101-bbd3-d85e5c9f5aa7.png)
+ 
+ 
+ e).  build the project using the sonar as admin credentiails (admin/admin) 
+sonar:sonar 
+-Dsonar.login=admin 
+-Dsonar.password=admin
+
+![image](https://user-images.githubusercontent.com/40369558/222710175-891d9319-4208-45b3-84f5-ef6d7db0b336.png)
+
+
+Test the application : http://localhost:9000/dashboard?id=com.ps.blog%3Ablog-app
+![image](https://user-images.githubusercontent.com/40369558/222710417-f193f7bb-e062-46ca-82cd-5793a37c9b91.png)
+
+
+
 
 
 
