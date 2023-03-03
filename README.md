@@ -446,6 +446,39 @@ Functional programming is a pure function , a function is said  to be pure, if
 The return value of the sum() function only depends on the input parameters. Notice also that the sum() has no side effects, meaning it does not modify any state (variables) outside the function anywhere.
 
 
+@ higher-order functions
+
+A function is said to be a higher order function if at least one of the following conditions are met:
+
+	The function takes one or more functions as parameters.
+
+	The function returns another functions as result. 
+
+![image](https://user-images.githubusercontent.com/40369558/222757926-a996a7db-a182-4b9e-b456-1894b4076415.png)
+
+Use of higher-order function
+
+	The function will work as an instance of the object type.
+
+	We can easily store the function in the form of the variable.
+
+	We can store these functions in the data structure in the hash table, list etc.
+
+
+
+@ functions as parameters and return values
+
+Lambda expression is an anonymous function that takes in parameters and returns a value. It is called an anonymous function because it doesn’t require a name. 
+
+Syntax : 
+ (parameters1,  parameters 2, ….) ->  expression
+ 
+(parameter1, parameter 2, ….) ->   {  body  }
+
+![image](https://user-images.githubusercontent.com/40369558/222759011-f77f1e57-c927-429f-a531-cdc6e0f36b8b.png)
+
+
+
 
 
 
