@@ -166,10 +166,14 @@ UML, short for Unified Modeling Language, is a standardized modeling language co
 Domain-Driven Design is an approach to software design that glues the system’s implementation to a constantly evolving model, leaving aside irrelevant details like programming languages, infrastructure technologies, etc. DDD focuses on three core principles:
 
 •	It focuses on the core domain and domain logic.
+
 •	Base complex designs on models of the domain.
+
 •	Constantly collaborate with domain experts, in order to improve the application model.
 
+
 The common terms that are useful for describing the DDD as 
+
         > Bounded Context: It is a description of a boundary within which a particular model is defined and applicable.        
 For example, outside of a Bounded Context, an “add” could mean two different things, either add a product to the cart or add a user. 
 
@@ -188,6 +192,24 @@ For example, outside of a Bounded Context, an “add” could mean two different
         > Repositories: The repository is an interface that handles Read, Updates, and Delete operations. It hides the implementation details from the client. It operates as an abstraction layer over memory, file system, database, etc.
         
         > Factories: The repository is an interface that handles Read, Updates, and Delete operations. It hides the implementation details from the client. It operates as an abstraction layer over memory, file system, database, etc.
+        
+       DDD of blog application and other design:
+       
+       a).  Blog Application 
+            ![image](https://user-images.githubusercontent.com/40369558/222695069-8537c0f2-abdd-433d-b1dc-9c1ba0368012.png)
+
+
+           ![image](https://user-images.githubusercontent.com/40369558/222695217-423527ef-03b8-4cb1-aa7d-6f4d82b299ac.png)
+           
+          
+        b).  DDD implementation cycle
+             ![image](https://user-images.githubusercontent.com/40369558/222695404-104553c1-9835-4ab9-8628-073e9633fef0.png)
+
+
+        c).  DDD of Microservices application
+            ![image](https://user-images.githubusercontent.com/40369558/222695598-15896cc9-1ed2-475f-ad46-3161842636d5.png)
+
+  
 
 
 
