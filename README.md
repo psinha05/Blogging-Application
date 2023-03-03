@@ -197,11 +197,12 @@ The common terms that are useful for describing the DDD as
        
        a).  Blog Application 
             
-          ![image](https://user-images.githubusercontent.com/40369558/222698698-4d74e68c-3486-4d7d-8b19-858815264061.png)
+          
 
 
 
-         
+         ![ddd01](https://user-images.githubusercontent.com/40369558/222698833-f5ef782e-1ed7-41c1-af8b-876857b56aed.png)
+
            
           
         b).  DDD implementation cycle
