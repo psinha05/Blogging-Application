@@ -345,6 +345,32 @@ Continuous integration, delivery and deployment are practices that seek to speed
 
 ![image](https://user-images.githubusercontent.com/40369558/222718881-191cad50-3b67-46ca-b956-a5b0d470892a.png)
 
+used the jenkins pipeline for the blog apps( React component)
+https://github.com/prats5/react-blog-app
+
+![image](https://user-images.githubusercontent.com/40369558/222719796-b2ca1468-947a-4c39-a6f2-9fc6f54f5735.png)
+
+# Pipeline Script
+![image](https://user-images.githubusercontent.com/40369558/222719881-bede8aec-3662-42a5-9be1-c215d2603d3c.png)
+
+
+For React build
+![image](https://user-images.githubusercontent.com/40369558/222720010-58a91df9-99b6-47c4-888d-5f57bcc3d2d1.png)
+
+#  Pipe line script for pull the docker image 
+![image](https://user-images.githubusercontent.com/40369558/222720156-96887c66-9dc4-4eda-b2bd-bb7be4f0b125.png)
+
+if image is not available on local system, pull the image from hub
+![image](https://user-images.githubusercontent.com/40369558/222720388-6411978e-3794-4e43-ad54-7a74df5a188c.png)
+
+
+
+
+![image](https://user-images.githubusercontent.com/40369558/222720217-bac72627-bfa6-41cc-91c2-fbbf3d3abad1.png)
+
+
+
+
 
 
 
