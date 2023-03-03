@@ -406,11 +406,102 @@ Visual Studio Code (V_1.39.2)
 
 
 
-10). DSL
+10). DSL(Domain specific language) 
+
+A domain specific language is a language meant for use in the context of a particular domain. A domain could be a business context (eg: banking, insurance etc..) or an application context (eg, a web application, database etc..). In contrast a general –purpose language(GPL) can be used for a wide range of business problems and applications. It is created for a limited sphere of applicability  and use, but it’s powerful enough to represent and address the problems and solutions in that sphere. Ex : HTML, a language for web based domain application. 
+
+There are two types of languages used in DSL:
+
+a). Domain-specific language  (DSL) : the language in which a DSL is written or presented.
+
+b). Host Language : the language in which a DSL is executed or processed. 
+
+DSL examples
+
+Some languages used for DSLs include:
+    Web: HTML
+    
+    Shell: sh, Bash, CSH, and the likes for *nix; MS-DOS, Windows Terminal, PowerShell for Windows
+    
+    Markup languages: XML
+    
+    Modeling: UML
+    
+    Data management: SQL and its variants
+    
+    Business rules: Drools
+    
+    Hardware: Verilog, VHD
+    
+    Build tools: Maven, Gradle 
+    
+The purpose of a DSL is to capture or document the requirements and behavior of one domain. A DSL’s usage might be even narrower for particular aspects within the domain (e.g., commodities trading in finance).
+
+DSL Pros and Cons
+
+On the plus side, DSLs are powerful for capturing a domain’s attributes. It’s easy to learn and use.
+
+On the downside, a DSL is narrowly used within the intended domain and purpose. DSL creators need domain knowledge as well as language-development knowledge, and individuals have both knowledge.
+
+DSL software are open source options include  Xtext  and JetBrains MPS.
+
+For the code snippets, I have used Apache Camel with a Spring Boot Application.
+
+Apache Camel is a rule-based routing and mediation engine that provides a Java object-based implementation of the Enterprise Integration Patterns using an API (or declarative Java Domain Specific Language, (DSL)) to configure routing and mediation rules.
+
+Steps:
+
+a). In the Maven we need the camel dependency.Maven will be as follows- 
+
+<dependency>
+    <groupId>org.apache.camel</groupId>
+    <artifactId>camel-spring-boot-starter</artifactId>
+    <version>2.17.0</version>
+</dependency>
 
 
+b). Create the SpringBootHelloWorldApplication.java as below-
+
+package com.ps
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringBootHelloWorldApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootHelloWorldApplication.class, args);
+	}
+}
 
 
+c). To add class with the Camel routes, this routes will be started automatically. 
+
+package com.ps
+
+
+import org.apache.camel.builder.RouteBuilder;
+import org.springframework.stereotype.Component;
+
+@Component
+public class MyRoute extends RouteBuilder {
+
+	@Override
+	public void configure() throws Exception {
+		from("file:C://inputFolder?noop=true").to("file:C://outputFolder");
+	}
+}
+
+d). To keep the main thread blocked so that Camel stays up, add camel.springboot.main-run-controller=true to the application.properties file.
+    camel.springboot.main-run-controller=true
+    
+![image](https://user-images.githubusercontent.com/40369558/222776757-34105571-0091-41b8-af03-efa5ca13fa8b.png)
+
+This has moved the file from inputFolder to outputFolder based on route defined by the camel.
+
+    
+    
 11). Functional Programming
 
 functional programming is a programming paradigm where programs are constructed by applying and composing functions. It is a declarative programming paradigm in which function definitions are trees of expressions that map values to other values, rather than a sequence of imperative statements which update the running state of the program.
