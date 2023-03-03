@@ -290,8 +290,8 @@ Test the application : http://localhost:9000/dashboard?id=com.ps.blog%3Ablog-app
 
 
 5).  Clean Code Development 
-
-    Necessary changed were performed suggested by the tool(sonarqube), few are updated as below:
+    Necessary changed were performed suggested by the tool(sonarqube), few are mentioned as below:
+    
     
 1).  To remove all the unused codes(written but not using anywhere)
 2).  To reomove the SOP, suggested for use the logger (log4j)
@@ -299,7 +299,25 @@ Test the application : http://localhost:9000/dashboard?id=com.ps.blog%3Ablog-app
 4).  Lombook updated (for setter/getter)
 5).  Suggest for private methods instead of public for security purpose.
 
+
 ![image](https://user-images.githubusercontent.com/40369558/222713703-755aed53-b95b-4d09-b046-cf69f663d946.png)
+
+
+6). Build 
+
+Maven is a build automation tool used primarily for Java projects. Maven can also be used to build and manage projects written in C#, Ruby, Scala, and other languages. The Maven project is hosted by the Apache Software Foundation, where it was formerly part of the Jakarta Project. 
+
+Maven addresses two aspects of building software: how software is built and its dependencies. An XML file describes the software project being built, its dependencies on other external modules and components, the build order, directories, and required plug-ins. It comes with pre-defined targets for performing certain well-defined tasks such as compilation of code and its packaging. Maven dynamically downloads Java libraries and Maven plug-ins from one or more repositories such as the Maven 2 Central Repository, and stores them in a local cache. This local cache of downloaded artifacts can also be updated with artifacts created by local projects. 
+
+
+In blog application, maven used as build tool (Project Object Model(POM))
+
+![image](https://user-images.githubusercontent.com/40369558/222715104-8db6b391-9dce-4956-b191-96a26e9fbe3b.png)
+
+
+Maven Dependencies Jar files
+![image](https://user-images.githubusercontent.com/40369558/222715520-a675a55d-05ba-47e7-ac37-e61a1956dbdf.png)
+
 
 
 
