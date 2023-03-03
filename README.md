@@ -226,4 +226,52 @@ The common terms that are useful for describing the DDD as
 ![image](https://user-images.githubusercontent.com/40369558/222704252-31383754-89fb-4467-a746-565aa2c1d860.png)
 
 
+4). Metrics(Sonarqube)
+ SonarQube is an open-source platform developed by SonarSource for continuous inspection of code quality to perform automatic reviews
+with static analysis of code to detect bugs and code smells on programming languages. SonarQube offers reports on duplicated code, coding standards, 
+unit tests, code coverage, code complexity, comments, bugs, and security recommendations.
+
+SonarQube can record metrics history and provides evolution graphs. SonarQube provides fully automated analysis and integration with Maven, Ant, Gradle, MSBuild and continuous integration tools.
+
+Steps :
+a).  install the sonarqube on system
+b).  add the plugin in the maven(pom.xml) file
+
+<!-- Below plugin needs to be added for code coverage-->
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.8.6</version>
+                <executions>
+                    <execution>
+                        <id>default-prepare-agent</id>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>default-report</id>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+c).   we need to run two commands while building our spring boot project 
+                   	First command will be used to generate code coverage report by Jacoco plugin.
+                            clean org.jacoco:jacoco-maven-plugin:prepare-agent install
+                            
+                       Second command will be used to See our project code analysis on SonarQube dashboard. we also need to pass authorization token with 
+                   sonar:sonar command . We will get this token from Sonarqube dashboard Click on My Account → Security → Enter Token Name and then 
+                   click on Generate and will use same token value for -Dsonar.login 
+                            sonar:sonar -Dsonar.login=generated-token-value
+                            
+ d). build the project using the maven 
+ 
+ ![image](https://user-images.githubusercontent.com/40369558/222709174-b4d837b1-b94a-4101-bbd3-d85e5c9f5aa7.png)
+
+
+
 
