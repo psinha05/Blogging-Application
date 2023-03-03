@@ -135,12 +135,21 @@ ER Diagrams.
 #  Topics covered for the project 
 
 1).  Git 
+
 GitHub is an Internet hosting service for software development and version control using Git. It provides the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project. It has been a subsidiary of Microsoft since 2018.
 
 
 
-
-
 ![github](https://user-images.githubusercontent.com/40369558/222688276-e274bfdd-d8c1-4a92-9e97-86d5977f32bf.jpg)
+
+
+2).  UML : 
+
+UML, short for Unified Modeling Language, is a standardized modeling language consisting of an integrated set of diagrams, developed to help system and software developers for specifying, visualizing, constructing, and documenting the artifacts of software systems, as well as for business modeling and other non-software systems. The UML represents a collection of best engineering practices that have proven successful in the modeling of large and complex systems. The UML is a very important part of developing object oriented software and the software development process. The UML uses mostly graphical notations to express the design of software projects. Using the UML helps project teams communicate, explore potential designs, and validate the architectural design of the software.
+
+@  Class Diagram
+
+![image](https://user-images.githubusercontent.com/40369558/222689832-7dbcf302-404c-405e-aec5-44f0bc657150.png)
+
 
 
