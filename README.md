@@ -222,3 +222,8 @@ The common terms that are useful for describing the DDD as
 
 
 
+  
+![image](https://user-images.githubusercontent.com/40369558/222704252-31383754-89fb-4467-a746-565aa2c1d860.png)
+
+
+
