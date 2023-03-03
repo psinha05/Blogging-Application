@@ -227,6 +227,7 @@ The common terms that are useful for describing the DDD as
 
 
 4). Metrics(Sonarqube)
+
  SonarQube is an open-source platform developed by SonarSource for continuous inspection of code quality to perform automatic reviews
 with static analysis of code to detect bugs and code smells on programming languages. SonarQube offers reports on duplicated code, coding standards, 
 unit tests, code coverage, code complexity, comments, bugs, and security recommendations.
@@ -277,6 +278,7 @@ c).   we need to run two commands while building our spring boot project
  
  
  e).  build the project using the sonar as admin credentiails (admin/admin) 
+ 
 sonar:sonar 
 -Dsonar.login=admin 
 -Dsonar.password=admin
@@ -289,8 +291,11 @@ Test the application : http://localhost:9000/dashboard?id=com.ps.blog%3Ablog-app
 
 
 
+
 5).  Clean Code Development 
+
     Necessary changed were performed suggested by the tool(sonarqube), few are mentioned as below:
+    
     
     
 1).  To remove all the unused codes(written but not using anywhere)
@@ -317,6 +322,22 @@ In blog application, maven used as build tool (Project Object Model(POM))
 
 Maven Dependencies Jar files
 ![image](https://user-images.githubusercontent.com/40369558/222715520-a675a55d-05ba-47e7-ac37-e61a1956dbdf.png)
+
+
+
+7). Unit Test
+
+Unit Testing is a crucial step in software design and implementation.
+It not only improves the efficiency and effectiveness of the code, but it also makes the code more robust and reduces the regressions in future development and maintenance. Unit Testing is a methodology of testing source code for its fitment of use in production. We start out writing unit tests by creating various test cases to verify the behaviors of an individual unit of source code.
+
+![image](https://user-images.githubusercontent.com/40369558/222716792-4e93400f-fab4-4f39-bb75-37d1e0850d6f.png)
+
+
+Test using Mockito
+
+![image](https://user-images.githubusercontent.com/40369558/222716966-bd4d5a64-ce4d-411d-869b-668ab8c55a30.png)
+
+
 
 
 
