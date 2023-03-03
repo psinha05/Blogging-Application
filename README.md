@@ -295,7 +295,7 @@ Test the application : http://localhost:9000/dashboard?id=com.ps.blog%3Ablog-app
 5).  Clean Code Development 
 
     Necessary changed were performed suggested by the tool(sonarqube), few are mentioned as below:
-    
+    -----------------------------------------------------------------------------------------------
     
     
 1).  To remove all the unused codes(written but not using anywhere)
@@ -339,6 +339,11 @@ Test using Mockito
 
 
 
+8).  Continuous Delivery
+
+Continuous integration, delivery and deployment are practices that seek to speed up the process of releasing software by shortening feedback loops and automating repetitive tasks. These practices play a key role in making the agile principle of frequently delivering valuable, working software to users a reality. 
+
+![image](https://user-images.githubusercontent.com/40369558/222718881-191cad50-3b67-46ca-b956-a5b0d470892a.png)
 
 
 
