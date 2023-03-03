@@ -210,12 +210,12 @@ The common terms that are useful for describing the DDD as
 
 
         c).  DDD of Microservices application
-            ![ms_ddd](https://user-images.githubusercontent.com/40369558/222699759-2270827a-aa91-46ef-a678-6f3d0d30b7a6.png)
+           
 
 
 
 
-
+![ms_ddd](https://user-images.githubusercontent.com/40369558/222699955-e9f7b008-a5ba-403b-b03a-7636c1dc7dbf.png)
 
 
 
