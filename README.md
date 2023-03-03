@@ -4,7 +4,7 @@ Blogging Application for the demo purpose
 About
 
 A blogging platform is a service that's used to create and manage a blog so that you can publish your ideas and words online. 
-A full-stack blog written in Java using Spring Boot and Reactjs, all the user athentication happened at server end. Once user register into the application then need to sign up for the post of blogs.
+A full-stack blog written in Java using Spring Boot and Reactjs, all the user athentication happened at server end. Once user register into the application then need to sign up for the post of blogs. ( Blog apps UI  component available at : https://github.com/prats5/react-blog-app)
 
 Used technologies for this application : 
 Core java (oops , package , exception , lambda , stream api etc)
@@ -50,7 +50,7 @@ Backend:
 
     Once the source building and dependecies are ready and application.properties is configured, run the App using Application configuration or just run if the provided configuration is available. // We're running only the development version here since it's basic
 
-Frontend:
+Frontend: (https://github.com/prats5/react-blog-app)
     for frontend open blog-app folder from cmd 
     run the code .. cmd, this will open the application in visual studio with project structure.
     Open terminal inside the vs code or run the run from externally.
