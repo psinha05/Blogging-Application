@@ -147,9 +147,22 @@ GitHub is an Internet hosting service for software development and version contr
 
 UML, short for Unified Modeling Language, is a standardized modeling language consisting of an integrated set of diagrams, developed to help system and software developers for specifying, visualizing, constructing, and documenting the artifacts of software systems, as well as for business modeling and other non-software systems. The UML represents a collection of best engineering practices that have proven successful in the modeling of large and complex systems. The UML is a very important part of developing object oriented software and the software development process. The UML uses mostly graphical notations to express the design of software projects. Using the UML helps project teams communicate, explore potential designs, and validate the architectural design of the software.
 
-@  Class Diagram
+@  Class Diagram of blog application
 
 ![image](https://user-images.githubusercontent.com/40369558/222689832-7dbcf302-404c-405e-aec5-44f0bc657150.png)
+
+
+@ Sequence Diagram of the blog application 
+
+![image](https://user-images.githubusercontent.com/40369558/222690434-3fc84be8-daa6-41b9-81da-d5579044dcd6.png)
+
+@ Activity Diagram
+
+![image](https://user-images.githubusercontent.com/40369558/222690559-8f41054d-dde8-4309-948b-c13fb3f7e95a.png)
+
+
+
+
 
 
 
