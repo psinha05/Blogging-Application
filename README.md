@@ -202,9 +202,7 @@ The common terms that are useful for describing the DDD as
 ![ddd01](https://user-images.githubusercontent.com/40369558/222699384-71caf1b0-a152-426e-8157-4e5d571db878.png)
 
 
-        ![ddd01](https://user-images.githubusercontent.com/40369558/222699237-ff7e3cd3-d2bc-4403-8b9f-9729299b88c2.png)
-
-           
+                  
           
         b).  DDD implementation cycle
              ![DDD_impl](https://user-images.githubusercontent.com/40369558/222696947-74cf6ed7-0bf4-4644-896f-8261a22b3509.png)
