@@ -197,13 +197,7 @@ The common terms that are useful for describing the DDD as
        
        a).  Blog Application 
             
-          ![ddd01](https://user-images.githubusercontent.com/40369558/222696900-5cf840a1-602a-4ae2-b0e4-07da302f0814.png)
-           
-           
-           
-           
-           
-           ![blog_DDD](https://user-images.githubusercontent.com/40369558/222696637-fff39732-c329-4e48-a685-9ad4ecdd4f7d.png)
+          ![image](https://user-images.githubusercontent.com/40369558/222698698-4d74e68c-3486-4d7d-8b19-858815264061.png)
 
 
 
