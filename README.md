@@ -205,12 +205,12 @@ The common terms that are useful for describing the DDD as
                   
           
         b).  DDD implementation cycle
-             ![DDD_impl](https://user-images.githubusercontent.com/40369558/222696947-74cf6ed7-0bf4-4644-896f-8261a22b3509.png)
-
+             
+![DDD_impl](https://user-images.githubusercontent.com/40369558/222699715-e0dfad7d-7d30-4427-8a7f-b92fc531a7ec.png)
 
 
         c).  DDD of Microservices application
-            ![ms_ddd](https://user-images.githubusercontent.com/40369558/222697000-e6745730-dcee-4df9-a964-8c81f24238db.png)
+            ![ms_ddd](https://user-images.githubusercontent.com/40369558/222699759-2270827a-aa91-46ef-a678-6f3d0d30b7a6.png)
 
 
 
