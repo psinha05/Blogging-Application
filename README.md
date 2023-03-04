@@ -143,7 +143,9 @@ GitHub is an Internet hosting service for software development and version contr
 ![github](https://user-images.githubusercontent.com/40369558/222688276-e274bfdd-d8c1-4a92-9e97-86d5977f32bf.jpg)
 
 
+
 2).  UML : 
+
 
 UML, short for Unified Modeling Language, is a standardized modeling language consisting of an integrated set of diagrams, developed to help system and software developers for specifying, visualizing, constructing, and documenting the artifacts of software systems, as well as for business modeling and other non-software systems. The UML represents a collection of best engineering practices that have proven successful in the modeling of large and complex systems. The UML is a very important part of developing object oriented software and the software development process. The UML uses mostly graphical notations to express the design of software projects. Using the UML helps project teams communicate, explore potential designs, and validate the architectural design of the software.
 
@@ -152,7 +154,7 @@ UML, short for Unified Modeling Language, is a standardized modeling language co
 ![image](https://user-images.githubusercontent.com/40369558/222689832-7dbcf302-404c-405e-aec5-44f0bc657150.png)
 
 
-@ Sequence Diagram of the blog application 
+@ Sequence Diagram of blog application 
 
 ![image](https://user-images.githubusercontent.com/40369558/222690434-3fc84be8-daa6-41b9-81da-d5579044dcd6.png)
 
@@ -161,7 +163,9 @@ UML, short for Unified Modeling Language, is a standardized modeling language co
 ![image](https://user-images.githubusercontent.com/40369558/222690559-8f41054d-dde8-4309-948b-c13fb3f7e95a.png)
 
 
+
 3). Domain-driven Design(DDD)
+
 
 Domain-Driven Design is an approach to software design that glues the system’s implementation to a constantly evolving model, leaving aside irrelevant details like programming languages, infrastructure technologies, etc. DDD focuses on three core principles:
 
@@ -175,23 +179,33 @@ Domain-Driven Design is an approach to software design that glues the system’s
 The common terms that are useful for describing the DDD as 
 
         > Bounded Context: It is a description of a boundary within which a particular model is defined and applicable.        
-(For example, outside of a Bounded Context, an “add” could mean two different things, either add a product to the cart or add a user)
+          (For example, outside of a Bounded Context, an “add” could mean two different things, either 
+          add a product to the cart or add a user)
 
-        > Ubiquitous Language: It is a language, shared by the development team and the domain experts It is used by all team members to connect all the   activities of the team with the software.
+        > Ubiquitous Language: It is a language, shared by the development team and the domain experts It is used by all
+	  team members to connect all the   activities of the team with the software.
         
-        > Building Blocks:  Domain-driven design also defines a number of high-level concepts that can be used to create, express, and retrieve domain model within a Bounded Context.
+        > Building Blocks:  Domain-driven design also defines a number of high-level concepts that can be used to create,
+	  express, and retrieve domain model within a Bounded Context.
         
-        > Aggregate: Aggregates are collections of related Entities and Value Objects. Each Aggregate has an Entity that controls all access to the objects inside the boundary, this entity is the Aggregate Root. 
+        > Aggregate: Aggregates are collections of related Entities and Value Objects. Each Aggregate has an Entity that 
+	   controls all access to the objects inside the boundary, this entity is the Aggregate Root. 
         
-        > Services: The Domain Model requires certain actions or operations that are not directly related to an Entity or a Value Object, in that case, such business logic can be implemented as a Service. Services are classes that offer stateless operations. 
+        > Services: The Domain Model requires certain actions or operations that are not directly related to an Entity or
+	  a Value Object, in that case, such business logic can be implemented as a Service. Services are classes that offer 
+	  stateless operations. 
         
-        > Entity: An object that has a unique identity and consistent thread of continuity. The Identity is maintained via a unique key or a combination of keys.
+        > Entity: An object that has a unique identity and consistent thread of continuity. The Identity is maintained via a 
+	  unique key or a combination of keys.
         
-        > Value Object: An immutable object that describes characteristics, and that does not possess any unique identity is called Value Objects.
+        > Value Object: An immutable object that describes characteristics, and that does not possess any unique identity is 
+	  called Value Objects.
         
-        > Repositories: The repository is an interface that handles Read, Updates, and Delete operations. It hides the implementation details from the client. It operates as an abstraction layer over memory, file system, database, etc.
+        > Repositories: The repository is an interface that handles Read, Updates, and Delete operations. It hides the 
+	  implementation details from the client. It operates as an abstraction layer over memory, file system, database, etc.
         
-        > Factories: The repository is an interface that handles Read, Updates, and Delete operations. It hides the implementation details from the client. It operates as an abstraction layer over memory, file system, database, etc.
+        > Factories: The repository is an interface that handles Read, Updates, and Delete operations. It hides the 
+	  implementation details from the client. It operates as an abstraction layer over memory, file system, database, etc.
         
        DDD of blog application and other design:
        
@@ -226,15 +240,19 @@ The common terms that are useful for describing the DDD as
 ![image](https://user-images.githubusercontent.com/40369558/222704252-31383754-89fb-4467-a746-565aa2c1d860.png)
 
 
+
 4). Metrics(Sonarqube)
+
 
  SonarQube is an open-source platform developed by SonarSource for continuous inspection of code quality to perform automatic reviews
 with static analysis of code to detect bugs and code smells on programming languages. SonarQube offers reports on duplicated code, coding standards, 
 unit tests, code coverage, code complexity, comments, bugs, and security recommendations.
 
+
 SonarQube can record metrics history and provides evolution graphs. SonarQube provides fully automated analysis and integration with Maven, Ant, Gradle, MSBuild and continuous integration tools.
 
 Steps :
+
 a).  install the sonarqube on system
 
 b).  add the plugin in the maven(pom.xml) file
@@ -266,9 +284,11 @@ c).   we need to run two commands while building our spring boot project
                    > First command will be used to generate code coverage report by Jacoco plugin.
                             clean org.jacoco:jacoco-maven-plugin:prepare-agent install
                             
-                   > Second command will be used to See our project code analysis on SonarQube dashboard. we also need to pass authorization token with 
-                   sonar:sonar command . We will get this token from Sonarqube dashboard Click on My Account → Security → Enter Token Name and then 
-                   click on Generate and will use same token value for -Dsonar.login 
+                   > Second command will be used to See our project code analysis on SonarQube dashboard. we also need 
+		      to pass authorization token with 
+                   sonar:sonar command . We will get this token from Sonarqube dashboard Click on 
+		         My Account → Security → Enter Token Name and then 
+                         click on Generate and will use same token value for -Dsonar.login 
                    
                             sonar:sonar -Dsonar.login=generated-token-value
                             
@@ -295,14 +315,18 @@ Test the application : http://localhost:9000/dashboard?id=com.ps.blog%3Ablog-app
 5).  Clean Code Development 
 
     Necessary changed were performed suggested by the tool(sonarqube), few are mentioned as below:
-    -----------------------------------------------------------------------------------------------
-    
+       
     
 1).  To remove all the unused codes(written but not using anywhere)
+
 2).  To reomove the SOP, suggested for use the logger (log4j)
+
 3).  To updated the pom.xml file and suggested for removed all the commented code.
+
 4).  Lombook updated (for setter/getter)
+
 5).  Suggest for private methods instead of public for security purpose.
+
 
 
 ![image](https://user-images.githubusercontent.com/40369558/222713703-755aed53-b95b-4d09-b046-cf69f663d946.png)
@@ -310,9 +334,15 @@ Test the application : http://localhost:9000/dashboard?id=com.ps.blog%3Ablog-app
 
 6). Build 
 
-Maven is a build automation tool used primarily for Java projects. Maven can also be used to build and manage projects written in C#, Ruby, Scala, and other languages. The Maven project is hosted by the Apache Software Foundation, where it was formerly part of the Jakarta Project. 
+Maven is a build automation tool used primarily for Java projects. Maven can also be used to build and manage projects 
+written in C#, Ruby, Scala, and other languages. The Maven project is hosted by the Apache Software Foundation, where 
+it was formerly part of the Jakarta Project. 
 
-Maven addresses two aspects of building software: how software is built and its dependencies. An XML file describes the software project being built, its dependencies on other external modules and components, the build order, directories, and required plug-ins. It comes with pre-defined targets for performing certain well-defined tasks such as compilation of code and its packaging. Maven dynamically downloads Java libraries and Maven plug-ins from one or more repositories such as the Maven 2 Central Repository, and stores them in a local cache. This local cache of downloaded artifacts can also be updated with artifacts created by local projects. 
+Maven addresses two aspects of building software: how software is built and its dependencies. An XML file describes the software
+project being built, its dependencies on other external modules and components, the build order, directories, and required plug-ins.
+It comes with pre-defined targets for performing certain well-defined tasks such as compilation of code and its packaging. Maven 
+dynamically downloads Java libraries and Maven plug-ins from one or more repositories such as the Maven 2 Central Repository, 
+and stores them in a local cache. This local cache of downloaded artifacts can also be updated with artifacts created by local projects. 
 
 
 In blog application, maven used as build tool (Project Object Model(POM))
@@ -328,7 +358,10 @@ Maven Dependencies Jar files
 7). Unit Test
 
 Unit Testing is a crucial step in software design and implementation.
-It not only improves the efficiency and effectiveness of the code, but it also makes the code more robust and reduces the regressions in future development and maintenance. Unit Testing is a methodology of testing source code for its fitment of use in production. We start out writing unit tests by creating various test cases to verify the behaviors of an individual unit of source code.
+It not only improves the efficiency and effectiveness of the code, but it also makes the code more robust and reduces the regressions 
+in future development and maintenance. Unit Testing is a methodology of testing source code for its fitment of use in production. 
+We start out writing unit tests by creating various test cases to verify the behaviors of an individual unit of source code.
+
 
 ![image](https://user-images.githubusercontent.com/40369558/222716792-4e93400f-fab4-4f39-bb75-37d1e0850d6f.png)
 
@@ -341,7 +374,9 @@ Test using Mockito
 
 8).  Continuous Delivery
 
-Continuous integration, delivery and deployment are practices that seek to speed up the process of releasing software by shortening feedback loops and automating repetitive tasks. These practices play a key role in making the agile principle of frequently delivering valuable, working software to users a reality. 
+Continuous integration, delivery and deployment are practices that seek to speed up the process of releasing software by shortening 
+feedback loops and automating repetitive tasks. These practices play a key role in making the agile principle of frequently delivering 
+valuable, working software to users a reality. 
 
 ![image](https://user-images.githubusercontent.com/40369558/222718881-191cad50-3b67-46ca-b956-a5b0d470892a.png)
 
@@ -373,7 +408,9 @@ if image is not available on local system, pull the image from hub
 
 9).  IDE
 
-An integrated development environment (IDE) is a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of at least a source code editor, build automation tools, and a debugger. Some IDEs, such as NetBeans and Eclipse, contain the necessary compiler, interpreter, or both.
+An integrated development environment (IDE) is a software application that provides comprehensive facilities to computer programmers
+for software development. An IDE normally consists of at least a source code editor, build automation tools, and a debugger. 
+Some IDEs, such as NetBeans and Eclipse, contain the necessary compiler, interpreter, or both.
 
 For this project I have used the Spring Tool Suits(STS) version 4.17.2 and Visual Studio Code(VS Code) version 1.39.2
 
@@ -408,7 +445,11 @@ Visual Studio Code (V_1.39.2)
 
 10). DSL(Domain specific language) 
 
-A domain specific language is a language meant for use in the context of a particular domain. A domain could be a business context (eg: banking, insurance etc..) or an application context (eg, a web application, database etc..). In contrast a general –purpose language(GPL) can be used for a wide range of business problems and applications. It is created for a limited sphere of applicability  and use, but it’s powerful enough to represent and address the problems and solutions in that sphere. Ex : HTML, a language for web based domain application. 
+A domain specific language is a language meant for use in the context of a particular domain. A domain could be a business 
+context (eg: banking, insurance etc..) or an application context (eg, a web application, database etc..). In contrast a 
+general –purpose language(GPL) can be used for a wide range of business problems and applications. It is created for a 
+limited sphere of applicability  and use, but it’s powerful enough to represent and address the problems and solutions 
+in that sphere. Ex : HTML, a language for web based domain application. 
 
 There are two types of languages used in DSL:
 
@@ -435,19 +476,22 @@ Some languages used for DSLs include:
     
     Build tools: Maven, Gradle 
     
-The purpose of a DSL is to capture or document the requirements and behavior of one domain. A DSL’s usage might be even narrower for particular aspects within the domain (e.g., commodities trading in finance).
+The purpose of a DSL is to capture or document the requirements and behavior of one domain. A DSL’s usage might be even narrower 
+for particular aspects within the domain (e.g., commodities trading in finance).
 
 DSL Pros and Cons
 
 On the plus side, DSLs are powerful for capturing a domain’s attributes. It’s easy to learn and use.
 
-On the downside, a DSL is narrowly used within the intended domain and purpose. DSL creators need domain knowledge as well as language-development knowledge, and individuals have both knowledge.
+On the downside, a DSL is narrowly used within the intended domain and purpose. DSL creators need domain knowledge as well as 
+language-development knowledge, and individuals have both knowledge.
 
 DSL software are open source options include  Xtext  and JetBrains MPS.
 
 For the code snippets, I have used Apache Camel with a Spring Boot Application.
 
-Apache Camel is a rule-based routing and mediation engine that provides a Java object-based implementation of the Enterprise Integration Patterns using an API (or declarative Java Domain Specific Language, (DSL)) to configure routing and mediation rules.
+Apache Camel is a rule-based routing and mediation engine that provides a Java object-based implementation of the Enterprise 
+Integration Patterns using an API (or declarative Java Domain Specific Language, (DSL)) to configure routing and mediation rules.
 
 Steps:
 
@@ -504,18 +548,24 @@ This has moved the file from inputFolder to outputFolder based on route defined 
     
 11). Functional Programming
 
-functional programming is a programming paradigm where programs are constructed by applying and composing functions. It is a declarative programming paradigm in which function definitions are trees of expressions that map values to other values, rather than a sequence of imperative statements which update the running state of the program.
+functional programming is a programming paradigm where programs are constructed by applying and composing functions. It is a declarative 
+programming paradigm in which function definitions are trees of expressions that map values to other values, rather than a sequence of 
+imperative statements which update the running state of the program.
 
-In functional programming, functions are treated as first-class citizens, meaning that they can be bound to names (including local identifiers), passed as arguments, and returned from other functions, just as any other data type can. This allows programs to be written in a declarative and composable style, where small functions are combined in a modular manner. 
+In functional programming, functions are treated as first-class citizens, meaning that they can be bound to names (including local identifiers),
+passed as arguments, and returned from other functions, just as any other data type can. This allows programs to be written in a declarative 
+and composable style, where small functions are combined in a modular manner. 
 
 A number of aspects and paradigms are specific to functional programming, few of them have implemented code shown as below :
 
 
 @ only final data structures :
 
-Immutability is one of the core principal of functional programming  and it refers to the property that an entity can’t be modified after being instantiated. Java itself provides several built-in immutable type like String. Use of Final keyword is one of them.
+Immutability is one of the core principal of functional programming  and it refers to the property that an entity can’t be modified after 
+being instantiated. Java itself provides several built-in immutable type like String. Use of Final keyword is one of them.
 
-Use of data structure (List, Array, Map), so that variable can’t be further initialized. Also class cannot be subclased and final methods can’t be overridden.
+Use of data structure (List, Array, Map), so that variable can’t be further initialized. Also class cannot be subclased and final methods 
+can’t be overridden.
 
 ![image](https://user-images.githubusercontent.com/40369558/222756366-bb625115-2cc5-45df-8c6c-f9b37ef0f1f5.png)
 
@@ -536,7 +586,8 @@ Functional programming is a pure function , a function is said  to be pure, if
 
 ![image](https://user-images.githubusercontent.com/40369558/222757045-f20afecb-24fd-4bab-b153-f324636e5b4e.png)
 
-The return value of the sum() function only depends on the input parameters. Notice also that the sum() has no side effects, meaning it does not modify any state (variables) outside the function anywhere.
+The return value of the sum() function only depends on the input parameters. Notice also that the sum() has no side effects, meaning it 
+does not modify any state (variables) outside the function anywhere.
 
 
 
@@ -563,7 +614,8 @@ Use of higher-order function
 
 @ functions as parameters and return values
 
-Lambda expression is an anonymous function that takes in parameters and returns a value. It is called an anonymous function because it doesn’t require a name. 
+Lambda expression is an anonymous function that takes in parameters and returns a value. It is called an anonymous function because it 
+doesn’t require a name. 
 
 Syntax : 
  (parameters1,  parameters 2, ….) ->  expression
@@ -576,7 +628,9 @@ Syntax :
 
 @ Anonymous function
 
-Anonymous function are unnamed, and thus can’t be invoked or used anywhere but where they’re defined. Thus they are useful to do a small amount of functionality that doesn’t rise to the level of needing its own template. So, this means anonymous functions need to be implemented using closures. Lambda expressions are merely a more concise way to invoke these anonymous functions
+Anonymous function are unnamed, and thus can’t be invoked or used anywhere but where they’re defined. Thus they are useful to do a small 
+amount of functionality that doesn’t rise to the level of needing its own template. So, this means anonymous functions need to be 
+implemented using closures. Lambda expressions are merely a more concise way to invoke these anonymous functions
 
 A lambda expression represents an anonymous function and It comprises of a set of parameters, a lambda operator (->) and a function body.
 
@@ -584,7 +638,8 @@ Return Type
 
 1.	When there is a single statement, the return type of the anonymous function is the same as that of the body expression.
 
-2.	When there is more than one statement enclosed in curly brackets then the return type of the anonymous function is the same as the type of the value returned within the code block, or void if nothing is returned.
+2.	When there is more than one statement enclosed in curly brackets then the return type of the anonymous function is the same as 
+the type of the value returned within the code block, or void if nothing is returned.
 
 ![image](https://user-images.githubusercontent.com/40369558/222764794-4c184644-c671-4d99-baec-e7bc9099dcc0.png)
 
